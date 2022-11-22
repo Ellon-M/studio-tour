@@ -33,7 +33,7 @@
 - [📝 License](#license)
 
 
-# 📖 [WB Film Studio Tour] <a name="about-project"></a>
+# 📖 WB Film Studio Tour <a name="about-project"></a>
 
 
 **This** is a web page which is designed to showcase a platform where visitors can get the opportunity to book a tour to the original sets where the film was produced (In this case, the film is Harry Potter, and the studios are Warner Bros). The website showcases the various breathtaking experiences that visitors will get to see and enjoy during the tour and also learn more about the film, its history and its producers.
@@ -120,8 +120,6 @@ To run the project, execute the following command: -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Ellon Mordecai**
 
 - GitHub: [@githubhandle](https://github.com/Ellon-M)
@@ -154,7 +152,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project please give it a ⭐️ :)
 
