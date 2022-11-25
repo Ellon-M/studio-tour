@@ -8,25 +8,27 @@
   <title>Explore the Tour: Warner Bros Studio Tour</title>
 </head>
 <body>
-  <header>
-    <div class="menu-button-wrap">
-      <div class="menu-line"></div>
-    </div>
+  <header id="landing">
     <nav>
       <div class="logo">
-        <img src="./media/Warner-Bros-Logo-1.png" alt="" class="logo-img">
+        <a href="./index.html">
+          <img src="./media/Warner-Bros-Logo-1.png" alt="navigation logo image" class="logo-img">
+        </a>
       </div>
       <div class="nav-centre">
         <ul class="nav-links">
-          <li class="nav-link"><a href="">Experience</a></li>
-          <li class="nav-link"><a href="">What's On</a></li>
-          <li class="nav-link"><a href="">Plan Your Visit</a></li>
-          <li class="nav-link"><a href="">Awards</a></li>
-          <li class="nav-link"><a href="">Contact us</a></li>
+          <li class="nav-link"><a href="./about.html">About</a></li>
+          <li class="nav-link"><a href="#experience">Experience</a></li>
+          <li class="nav-link"><a href="#featured">What's On</a></li>
+          <li class="nav-link"><a href="#awards">Awards</a></li>
+          <li class="nav-link"><a href="#contact-us">Contact us</a></li>
         </ul>
       </div>
       <div class="nav-end">
         <button id="tickets-btn">Tickets</button>
+      </div>
+      <div class="menu-button-wrap">
+        <div class="menu-line"></div>
       </div>
     </nav>
     <section class="heading">
@@ -42,7 +44,7 @@
     </section>
   </header>
   <main>
-    <section class="experience-section">
+    <section id="experience" class="experience-section">
       <h3 class="experience-heading">The Experience</h3>
       <div id="experience-heading-under"></div>
       <ul class="experiences-list">
@@ -80,24 +82,32 @@
       <button id="find-out-btn"><a href="" id="find-out-btn-link">Find out more</a></button>
       <a href="" id="find-out-btn-link-lg">Find out more</a>
     </section>
-    <section class="featured-section">
+    <section id="featured" class="featured-section">
       <h3 class="featured-heading">What's On</h3>
       <div id="featured-heading-under"></div>
       <ul class="featured"></ul>
     </section>
-    <section class="awards-section">
+    <section id="awards" class="awards-section">
       <h3 class="awards-heading">Award-Winning Tour</h3>
       <div id="awards-heading-under"></div>
       <ul class="awards-list">
-        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2022/03/PngItem_6092654-1-295x300.png" alt="" class="award-img"/></li>
-        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2022/03/TC_L-300x300.png" alt="" class="award-img"/></li>
-        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2019/06/gta_2019_1-300x300.jpg" alt="" class="award-img"/></li>
-        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2019/12/award-dowtk-national-winners-big-kids-300x300.png" alt="" class="award-img"/></li>
-        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2022/03/2019-Tourism-Awards-Logo-Herts-Winner-2019-AW-300x300.png" alt="" class="award-img"/></li>
+        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2022/03/PngItem_6092654-1-295x300.png" alt="award image" class="award-img"/></li>
+        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2022/03/TC_L-300x300.png" alt="award image" class="award-img"/></li>
+        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2019/06/gta_2019_1-300x300.jpg" alt="award image" class="award-img"/></li>
+        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2019/12/award-dowtk-national-winners-big-kids-300x300.png" alt="award image" class="award-img"/></li>
+        <li class="award"><img src="https://s32508.pcdn.co/wp-content/uploads/2022/03/2019-Tourism-Awards-Logo-Herts-Winner-2019-AW-300x300.png" alt="award image" class="award-img"/></li>
       </ul>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="footer-logo">
+      <img src="./media/Warner-Bros-Logo-1.png" alt="footer-logo-image" class="logo-img-footer">
+    </div>
+    <div class="footer-details">
+      <p class="footer-details-top">‘Wizarding World’ and all related names, characters and indicia are trademarks of and © Warner Bros. Entertainment Inc.</p>
+      <p class="footer-details-bottom">© J.K. Rowling</p> 
+    </div>
+  </footer>
   <script src="./featured.js"></script>
   <script src="./script.js"></script>
 </body>
