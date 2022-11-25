@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./media/Warner-Bros-Logo-1.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Film Studio Tour</b></h3>
@@ -20,16 +20,9 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
@@ -37,6 +30,8 @@
 
 
 **This** is a web page which is designed to showcase a platform where visitors can get the opportunity to book a tour to the original sets where the film was produced (In this case, the film is Harry Potter, and the studios are Warner Bros). The website showcases the various breathtaking experiences that visitors will get to see and enjoy during the tour and also learn more about the film, its history and its producers.
+
+UI Design by [Cindy Shin](https://www.behance.net/adagio07) on Behance.
 
 ## 🛠 Built With <a name="built-with"></a>
 
