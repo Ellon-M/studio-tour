@@ -1169,6 +1169,11 @@ footer {
   background-color: #fff;
 }
 
+#about-footer {
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
 .footer-logo {
   width: 45%;
   display: flex;
