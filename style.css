@@ -68,6 +68,35 @@ nav {
   display: flex;
 }
 
+.social-links {
+  height: 5vh;
+  background-color: #3e3e3e;
+  color: #fff;
+  display: none;
+  padding: 1rem;
+  width: 100%;
+}
+
+.links-top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 170px;
+}
+
+.top-link {
+  padding: 0 15px;
+  margin: 0;
+}
+
+#top-link-fb {
+  margin-top: 3px;
+}
+
+#top-link-tw {
+  margin-top: 6px;
+}
+
 .logo {
   display: none;
 }
@@ -262,6 +291,13 @@ nav {
     align-items: center;
   }
 
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
   .logo {
     display: flex;
     align-items: center;
@@ -428,6 +464,11 @@ li {
   height: auto;
   padding: 1rem 0;
   background-color: rgba(85, 85, 85, 0.486);
+}
+
+.experience:hover {
+  border: 2px solid #fff;
+  transform: scale(0.96);
 }
 
 .experience-image-1,
@@ -791,6 +832,12 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #3e3e3e;
+  color: #b3b3b3;
+}
+
+.awards-heading {
+  margin-top: 3rem;
 }
 
 .awards-list {
@@ -813,6 +860,7 @@ li {
 
 .award {
   padding: 1rem;
+  filter: grayscale(100%);
 }
 
 .award-img {
@@ -1118,8 +1166,7 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  background-color: #222;
-  color: #fff;
+  background-color: #fff;
 }
 
 .footer-logo {
