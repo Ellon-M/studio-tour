@@ -74,7 +74,7 @@ UI Design by [Cindy Shin](https://www.behance.net/adagio07) on Behance.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://ellon-m.github.io/studio-tour/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
